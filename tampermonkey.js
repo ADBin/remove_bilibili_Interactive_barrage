@@ -15,7 +15,7 @@
     console.log("JqueryVersion: ",$.fn.jquery);  //显示jquery版本
     //console.log("aaa")
     $("#bilibiliPlayer").bind("DOMNodeInserted",function(e){
-        $(".bilibili-player-link-wrap").children().remove();
-        $(".bilibili-player-popup-area").children().remove();
+        $(".bilibili-player-link-wrap").children().remove();  // 会移除分辨率切换和视频传送门
+        $(".bilibili-player-popup-area").children().remove(); // 会移除互动弹幕
     })
 })();
