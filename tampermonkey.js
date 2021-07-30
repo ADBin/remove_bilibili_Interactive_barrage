@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         移除互动弹幕
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       ADBIN
 // @match        *://*.bilibili.com/video/*
