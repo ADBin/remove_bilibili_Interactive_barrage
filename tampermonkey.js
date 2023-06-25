@@ -14,9 +14,7 @@
     'use strict';
     console.log("JqueryVersion: ",$.fn.jquery);  //显示jquery版本
     //console.log("aaa")
-    $("#bilibiliPlayer").bind("DOMNodeInserted",function(e){
-        $(".bilibili-player-link-wrap").children().remove();  // 移除分辨率切换和视频传送门
-        $(".bilibili-player-popup-area").children().remove(); // 移除互动弹幕
-        $(".bilibili-player-score-wrap").children().remove(); // 移除打分
+    $("#bilibili-player").bind("DOMNodeInserted",function(e){
+        $(".bpx-player-cmd-dm-inside").children().remove();
     })
 })();
